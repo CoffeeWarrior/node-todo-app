@@ -2,7 +2,7 @@ const {ObjectID} = require("mongodb");
 
 const {mongoose} = require("./../server/db/mongoose");
 const {Todo} = require("./../server/models/todo");
-
+const {User} = require("./../server/models/user");
 // var id = "5b574a12433ee21f482dd720";
 
 // if(!ObjectID.isValid(id)){
@@ -38,7 +38,6 @@ const {Todo} = require("./../server/models/todo");
 //user found (print to screen)
 //error handler
 
-const {User} = require("./../server/models/user");
 const id = "5b576e3b252e5b17405ae1f0";
 
 
